@@ -7,7 +7,7 @@
 - AWS API Gateway to expose the websocket connection
 
 <img
-  src="https://github.com/phidatahq/aws-templates/blob/main/assets/agent-serverless-websocket.png"
+  src="https://github.com/jacobweiss2305/aws-ai-templates/blob/main/assets/agent-serverless-websocket.png"
   style="border-radius: 8px;"
 />
 
