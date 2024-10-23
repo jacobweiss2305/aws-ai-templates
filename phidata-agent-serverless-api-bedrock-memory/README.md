@@ -9,7 +9,7 @@
 - AWS API Gateway to expose the API
 
 <img
-  src="https://github.com/phidatahq/aws-templates/blob/main/assets/agent-serverless-bedrock-api.png"
+  src="https://github.com/jacobweiss2305/aws-ai-templates/blob/main/assets/agent-serverless-bedrock-api.png"
   style="border-radius: 8px;"
 />
 
