@@ -14,7 +14,7 @@ A next js frontend framework for testing AWS backend
 
 3. Copy/Paste the URL of the backend API into the `.env` file
 
-`NEXT_PUBLIC_AWS_GATEWAY_API_URL=https://iasdfa.execute-api.us-east-1.amazonaws.com`
+`NEXT_PUBLIC_AWS_GATEWAY_WS_URL=wss://pv6hdf.execute-api.us-east-1.amazonaws.com/prod`
 
 4. Run the development server
 
