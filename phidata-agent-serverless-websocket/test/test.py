@@ -1,8 +1,13 @@
+import os
 import asyncio
 import json
 import websockets
 import logging
 from typing import Optional
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -71,7 +76,7 @@ class WebSocketAgentTester:
 
 async def main():
     # Replace with your WebSocket URL
-    websocket_url = "wss://p3ttev6hdf.execute-api.us-east-1.amazonaws.com/prod"
+    websocket_url = os.getenv("AWS_API_GATEWAY_WS_URL")
     
     # Create tester instance
     tester = WebSocketAgentTester(websocket_url)
