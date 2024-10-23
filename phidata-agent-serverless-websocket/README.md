@@ -61,7 +61,7 @@ cdk destroy
 
 1. Get the API URL from the output of the cdk deploy command
 ```
-PhidataAgentServerlessWebsocketStack.WSUrl = wss://p3ttev6hdf.execute-api.us-east-1.amazonaws.com/prod
+PhidataAgentServerlessWebsocketStack.WSUrl = wss://p3ttef.execute-api.us-east-1.amazonaws.com/prod
 ```
 
 2. Change directory to phidata-agent-serverless-websocket/test
@@ -76,7 +76,7 @@ cp .env-template .env
 
 4. Paste the URL into the test/.env file
 ```
-AWS_API_GATEWAY_WS_URL=https://1djpu9.execute-api.us-east-1.amazonaws.com
+AWS_API_GATEWAY_WS_URL=wss://p3ttef.execute-api.us-east-1.amazonaws.com/prod
 ```
 
 5. Create a virtual environment and install dependencies
